@@ -43,6 +43,8 @@ Before you can use a custom domain with your Front Door, you must first create a
 
 A custom domain and its sub-domain can be associated with only a single Front Door at a time. However, you can use different sub-domains from the same custom domain for different Front Doors by using multiple CNAME records. You can also map a custom domain with different sub-domains to the same Front Door.
 
+>[!WARNING]
+> A custom domain cannot be shared between CDN and Frontdoor and also between two CDNs or two Frontdoors.
 
 ## Map the temporary afdverify sub-domain
 
